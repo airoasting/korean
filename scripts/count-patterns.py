@@ -46,7 +46,10 @@ PATTERNS = {
     },
     4: {
         "name": "관용구·결말 공식",
-        "L3": [r"결론적으로", r"시사하는 바가 크다", r"~?할 필요가 있다", r"돌아보게 한다", r"잊지 말아야 한다", r"우리에게 던지는 화두"],
+        # '던지는 물음/질문/화두/숙제'는 어휘가 아니라 결말 '구조'다. 특정 단어만 바꿔도
+        # 상투 마무리 틀이 살아남던 문제를 막으려 변이형을 함께 잡는다.
+        "L3": [r"결론적으로", r"시사하는 바가 크다", r"~?할 필요가 있다", r"돌아보게 한다", r"잊지 말아야 한다",
+               r"던지는 (?:물음|질문|화두|숙제)", r"우리에게 던지는"],
         "L2": [r"혁신적", r"획기적", r"중대한", r"심오한", r"놀라운", r"뜻깊은"],
     },
     5: {
@@ -79,8 +82,9 @@ PATTERNS = {
         "name": "추측·약화",
         "L3": [r"~?인 것 같다", r"~?인 듯하다", r"~?로 보인다", r"~?라고 할 수 있다", r"~?것 같습니다", r"~?로 보입니다"],
         # 양비론 헤징(결론 회피용 fence-sitting)은 im-not-ai G-3에서 흡수
-        "L2": [r"\b조금\b", r"\b살짝\b", r"\b뭔가\b", r"\b되게\b", r"\b약간\b", r"\b꽤\b",
-               r"양쪽 모두", r"양측 모두", r"두 가지 모두", r"장점도 있지만", r"장점도 있고", r"균형이 필요"],
+        # 정도 부사(조금·살짝·약간·꽤·되게)는 '조금 덜 무겁다'처럼 정상 쓰임이 많아 오탐이 크다.
+        # 자동 감점하지 않고 '참고' 질적 신호로만 본다(사람 글에서 9.5로 묶이던 오탐 제거).
+        "L2": [r"양쪽 모두", r"양측 모두", r"두 가지 모두", r"장점도 있지만", r"장점도 있고", r"균형이 필요"],
     },
     10: {
         "name": "메타·자기해설",
@@ -94,15 +98,17 @@ PATTERNS = {
     },
     12: {
         "name": "AI 마무리 명언",
+        # 종결체 변이형까지 잡도록 어미를 자른 stem으로 쓴다. '시대가 왔습니다'만 넣으면
+        # 해라체 '시대가 왔다'가 통째로 누락돼 등급 계산이 틀어진다.
         "L3": [
             r"자기 길을 찾는 중",
-            r"시대가 왔습니다",
-            r"새로운 시대가 열렸",
-            r"시간이 시작됐",
+            r"시대가 왔",
+            r"새로운 시대가 열",
+            r"시간이 시작(?:됐|되었)",
             r"신호입니다",
-            r"신호로 읽힙니다",
+            r"신호로 읽",
             r"선이 그어지는 자리",
-            r"기로에 섰습니다",
+            r"기로에 섰",
             r"중대한 분기점",
             r"한 발 후퇴한 셈",
             r"역사가 어떻게 평가할지",
@@ -184,8 +190,16 @@ def jp_comma_signal(text: str) -> dict:
     return {"head": head, "topic": topic, "count": total, "flagged": total >= JP_COMMA_THRESHOLD}
 
 
+RHYTHM_MIN_CHARS = 400  # 이보다 짧으면 stdev 신호를 억제(짧은 글은 사람이 써도 stdev가 낮다)
+RHYTHM_MIN_SENTS = 8
+
+
 def rhythm_stdev(text: str) -> dict:
-    """문장 길이 표준편차 (im-not-ai E-1). 감점 아닌 참고치. stdev<8이면 리듬 균일 신호."""
+    """문장 길이 표준편차 (im-not-ai E-1). 감점 아닌 참고치. stdev<8이면 리듬 균일 신호.
+
+    단문 위주 수필은 사람이 써도 stdev가 낮아 오작동한다. 그래서 글이 충분히 길 때
+    (문장 8개+, 400자+)만 신호로 본다. 짧으면 stdev는 계산해 보여 주되 flagged=False.
+    """
     parts = [s.strip() for s in SENT_SPLIT.split(text) if s.strip()]
     lengths = [len(s) for s in parts]
     if len(lengths) < 4:
@@ -193,7 +207,8 @@ def rhythm_stdev(text: str) -> dict:
     mean = sum(lengths) / len(lengths)
     var = sum((x - mean) ** 2 for x in lengths) / len(lengths)
     stdev = var ** 0.5
-    return {"stdev": round(stdev, 1), "n": len(lengths), "flagged": stdev < 8}
+    long_enough = len(text) >= RHYTHM_MIN_CHARS and len(lengths) >= RHYTHM_MIN_SENTS
+    return {"stdev": round(stdev, 1), "n": len(lengths), "flagged": long_enough and stdev < 8}
 
 
 def count_patterns(text: str) -> dict:
@@ -290,14 +305,17 @@ def main():
     print(f"글자수: {counts['char_count']:,}자")
     print(f"em dash: {counts['emdash']}개\n")
 
+    # 심각도 표시 이름: 치명(구 L3, 자동 실격)·경고(구 L2, 점수 반영). 내부 키는 L3/L2 유지.
+    label = {"L3": "치명", "L2": "경고"}
     print("패턴별 카운트:")
     for num, c in sorted(counts["patterns"].items()):
         if c["L3"] > 0 or c["L2"] > 0:
             name = PATTERNS[num]["name"]
-            print(f"  {num:2d}. {name:20s} L3={c['L3']} L2={c['L2']}")
+            print(f"  {num:2d}. {name:20s} 치명={c['L3']} 경고={c['L2']}")
             for level in ("L3", "L2"):
-                for m in c["matches"][level][:3]:
-                    print(f"      {level}: '{m}'")
+                # 저장은 5개인데 화면에 3개만 찍어 4~5번째 매칭(예: 낫표)이 사라지던 버그 수정
+                for m in c["matches"][level][:5]:
+                    print(f"      {label[level]}: '{m}'")
 
     # 보조 신호 (참고치)
     conn = counts["connective_comma"]
@@ -306,7 +324,12 @@ def main():
     flag = " ← 6회+ 강한 AI 신호 (리듬 #7 반영)" if conn["flagged"] else ""
     print(f"  연결어미 뒤 쉼표: {conn['count']}회{flag}")
     if rhythm["stdev"] is not None:
-        rflag = " ← stdev<8, 문장 길이 균일 (AI 리듬 신호)" if rhythm["flagged"] else ""
+        if rhythm["flagged"]:
+            rflag = " ← stdev<8, 문장 길이 균일 (AI 리듬 신호)"
+        elif rhythm["stdev"] < 8:
+            rflag = " (짧은 글이라 리듬 신호 억제: 참고만)"
+        else:
+            rflag = ""
         print(f"  문장 길이 편차(stdev): {rhythm['stdev']} (문장 {rhythm['n']}개){rflag}")
     else:
         print(f"  문장 길이 편차: 문장 4개 미만이라 생략")
@@ -318,8 +341,8 @@ def main():
     print(f"  일본어식 쉼표(문두 접속부사 {jp['head']} + 주제어 뒤 {jp['topic']}): {jp['count']}회{jflag}")
 
     print(f"\n=== 점수 ===")
-    print(f"  L3 합계: {score_info['total_L3']}개")
-    print(f"  L2 합계: {score_info['total_L2']}개")
+    print(f"  치명 합계: {score_info['total_L3']}개")
+    print(f"  경고 합계: {score_info['total_L2']}개")
     print(f"  점수: {score_info['score']}/10")
     print(f"  등급: {score_info['grade']}")
 
