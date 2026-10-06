@@ -1,0 +1,1346 @@
+{
+"ai/a01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a02.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a03.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a04.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a05.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a06.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a07.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a08.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a09.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a10.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a11.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a12.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a13.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a14.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a15.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a16.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a17.txt": {
+"cd": false,
+"exit": false
+},
+"ai/a18.txt": {
+"cd": false,
+"exit": false
+},
+"ai/a19.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a20.txt": {
+"cd": false,
+"exit": false
+},
+"ai/a21.txt": {
+"cd": false,
+"exit": false
+},
+"ai/a22.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a23.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a24.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a25.txt": {
+"cd": false,
+"exit": false
+},
+"ai/a26.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a27.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a28.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a29.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a30.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a31.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a32.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a33.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a34.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a35.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a36.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a37.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a38.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a39.txt": {
+"cd": true,
+"exit": false
+},
+"ai/a40.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j02.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j03.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j04.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j05.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j06.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j07.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j08.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j09.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j10.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j11.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j12.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j13.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j14.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j15.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j16.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j17.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j18.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j19.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j20.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j21.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j22.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j23.txt": {
+"cd": false,
+"exit": false
+},
+"ai/j24.txt": {
+"cd": false,
+"exit": false
+},
+"ai/j25.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j26.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j27.txt": {
+"cd": true,
+"exit": false
+},
+"ai/j28.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j29.txt": {
+"cd": false,
+"exit": true
+},
+"ai/j30.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n02.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n03.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n04.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n05.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n06.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n07.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n08.txt": {
+"cd": false,
+"exit": false
+},
+"ai/n09.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n10.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n11.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n12.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n13.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n14.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n15.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n16.txt": {
+"cd": false,
+"exit": false
+},
+"ai/n17.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n18.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n19.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n20.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n21.txt": {
+"cd": false,
+"exit": false
+},
+"ai/n22.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n23.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n24.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n25.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n26.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n27.txt": {
+"cd": true,
+"exit": false
+},
+"ai/n28.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n29.txt": {
+"cd": false,
+"exit": true
+},
+"ai/n30.txt": {
+"cd": false,
+"exit": true
+},
+"ai/q01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q02.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q03.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q04.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q05.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q06.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q07.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q08.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q09.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q10.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q11.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q12.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q13.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q14.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q15.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q16.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q17.txt": {
+"cd": false,
+"exit": true
+},
+"ai/q18.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q19.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q20.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q21.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q22.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q23.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q24.txt": {
+"cd": true,
+"exit": false
+},
+"ai/q25.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q26.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q27.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q28.txt": {
+"cd": false,
+"exit": true
+},
+"ai/q29.txt": {
+"cd": false,
+"exit": false
+},
+"ai/q30.txt": {
+"cd": false,
+"exit": false
+},
+"ai/t01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/t02.txt": {
+"cd": false,
+"exit": false
+},
+"ai/t03.txt": {
+"cd": false,
+"exit": false
+},
+"ai/t04.txt": {
+"cd": false,
+"exit": false
+},
+"ai/t05.txt": {
+"cd": false,
+"exit": false
+},
+"ai/t06.txt": {
+"cd": false,
+"exit": true
+},
+"ai/t07.txt": {
+"cd": true,
+"exit": false
+},
+"ai/t08.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/v02.txt": {
+"cd": true,
+"exit": false
+},
+"ai/v03.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v04.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v05.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v06.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v07.txt": {
+"cd": false,
+"exit": true
+},
+"ai/v08.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v09.txt": {
+"cd": false,
+"exit": false
+},
+"ai/v10.txt": {
+"cd": false,
+"exit": false
+},
+"ai/y01.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y02.txt": {
+"cd": false,
+"exit": false
+},
+"ai/y03.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y04.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y05.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y06.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y07.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y08.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y09.txt": {
+"cd": false,
+"exit": false
+},
+"ai/y10.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y11.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y12.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y13.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y14.txt": {
+"cd": false,
+"exit": false
+},
+"ai/y15.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y16.txt": {
+"cd": false,
+"exit": false
+},
+"ai/y17.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y18.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y19.txt": {
+"cd": true,
+"exit": false
+},
+"ai/y20.txt": {
+"cd": true,
+"exit": false
+},
+"human/h01.txt": {
+"cd": false,
+"exit": true
+},
+"human/h02.txt": {
+"cd": false,
+"exit": true
+},
+"human/h03.txt": {
+"cd": false,
+"exit": true
+},
+"human/h04.txt": {
+"cd": false,
+"exit": true
+},
+"human/h05.txt": {
+"cd": false,
+"exit": true
+},
+"human/h06.txt": {
+"cd": false,
+"exit": true
+},
+"human/h07.txt": {
+"cd": false,
+"exit": true
+},
+"human/h08.txt": {
+"cd": false,
+"exit": true
+},
+"human/h09.txt": {
+"cd": false,
+"exit": true
+},
+"human/h10.txt": {
+"cd": false,
+"exit": true
+},
+"human/h11.txt": {
+"cd": false,
+"exit": false
+},
+"human/h12.txt": {
+"cd": false,
+"exit": true
+},
+"human/h13.txt": {
+"cd": false,
+"exit": true
+},
+"human/h14.txt": {
+"cd": false,
+"exit": true
+},
+"human/h15.txt": {
+"cd": false,
+"exit": true
+},
+"human/h16.txt": {
+"cd": false,
+"exit": true
+},
+"human/h17.txt": {
+"cd": false,
+"exit": true
+},
+"human/h18.txt": {
+"cd": false,
+"exit": true
+},
+"human/h19.txt": {
+"cd": false,
+"exit": true
+},
+"human/h20.txt": {
+"cd": false,
+"exit": true
+},
+"human/h21.txt": {
+"cd": false,
+"exit": true
+},
+"human/h22.txt": {
+"cd": false,
+"exit": true
+},
+"human/h23.txt": {
+"cd": false,
+"exit": true
+},
+"human/h24.txt": {
+"cd": false,
+"exit": true
+},
+"human/h25.txt": {
+"cd": false,
+"exit": true
+},
+"human/h26.txt": {
+"cd": false,
+"exit": true
+},
+"human/h27.txt": {
+"cd": false,
+"exit": true
+},
+"human/h28.txt": {
+"cd": false,
+"exit": true
+},
+"human/h29.txt": {
+"cd": false,
+"exit": true
+},
+"human/h30.txt": {
+"cd": false,
+"exit": true
+},
+"human/h31.txt": {
+"cd": false,
+"exit": true
+},
+"human/h32.txt": {
+"cd": false,
+"exit": true
+},
+"human/h33.txt": {
+"cd": false,
+"exit": true
+},
+"human/h34.txt": {
+"cd": false,
+"exit": true
+},
+"human/h35.txt": {
+"cd": false,
+"exit": true
+},
+"human/h36.txt": {
+"cd": false,
+"exit": true
+},
+"human/h37.txt": {
+"cd": false,
+"exit": true
+},
+"human/h38.txt": {
+"cd": false,
+"exit": true
+},
+"human/h39.txt": {
+"cd": false,
+"exit": true
+},
+"human/h40.txt": {
+"cd": false,
+"exit": true
+},
+"human/k01.txt": {
+"cd": false,
+"exit": true
+},
+"human/k02.txt": {
+"cd": false,
+"exit": true
+},
+"human/k03.txt": {
+"cd": false,
+"exit": true
+},
+"human/k04.txt": {
+"cd": false,
+"exit": true
+},
+"human/k05.txt": {
+"cd": false,
+"exit": true
+},
+"human/k06.txt": {
+"cd": false,
+"exit": true
+},
+"human/k07.txt": {
+"cd": false,
+"exit": true
+},
+"human/k08.txt": {
+"cd": false,
+"exit": true
+},
+"human/k09.txt": {
+"cd": false,
+"exit": true
+},
+"human/k10.txt": {
+"cd": false,
+"exit": false
+},
+"human/k11.txt": {
+"cd": false,
+"exit": true
+},
+"human/k12.txt": {
+"cd": false,
+"exit": true
+},
+"human/k13.txt": {
+"cd": false,
+"exit": true
+},
+"human/k14.txt": {
+"cd": false,
+"exit": true
+},
+"human/k15.txt": {
+"cd": false,
+"exit": true
+},
+"human/k16.txt": {
+"cd": false,
+"exit": false
+},
+"human/k17.txt": {
+"cd": false,
+"exit": true
+},
+"human/k18.txt": {
+"cd": false,
+"exit": false
+},
+"human/k19.txt": {
+"cd": false,
+"exit": true
+},
+"human/k20.txt": {
+"cd": false,
+"exit": true
+},
+"human/k21.txt": {
+"cd": false,
+"exit": true
+},
+"human/k22.txt": {
+"cd": false,
+"exit": true
+},
+"human/k23.txt": {
+"cd": false,
+"exit": true
+},
+"human/k24.txt": {
+"cd": false,
+"exit": true
+},
+"human/k25.txt": {
+"cd": false,
+"exit": true
+},
+"human/k26.txt": {
+"cd": false,
+"exit": true
+},
+"human/k27.txt": {
+"cd": false,
+"exit": true
+},
+"human/k28.txt": {
+"cd": false,
+"exit": true
+},
+"human/k29.txt": {
+"cd": false,
+"exit": true
+},
+"human/k30.txt": {
+"cd": false,
+"exit": true
+},
+"human/m01.txt": {
+"cd": false,
+"exit": true
+},
+"human/m02.txt": {
+"cd": false,
+"exit": true
+},
+"human/m03.txt": {
+"cd": false,
+"exit": true
+},
+"human/m04.txt": {
+"cd": false,
+"exit": true
+},
+"human/m05.txt": {
+"cd": false,
+"exit": true
+},
+"human/m06.txt": {
+"cd": false,
+"exit": true
+},
+"human/m07.txt": {
+"cd": false,
+"exit": false
+},
+"human/m08.txt": {
+"cd": false,
+"exit": true
+},
+"human/m09.txt": {
+"cd": false,
+"exit": true
+},
+"human/m10.txt": {
+"cd": false,
+"exit": true
+},
+"human/m11.txt": {
+"cd": false,
+"exit": true
+},
+"human/m12.txt": {
+"cd": false,
+"exit": true
+},
+"human/m13.txt": {
+"cd": false,
+"exit": false
+},
+"human/m14.txt": {
+"cd": false,
+"exit": false
+},
+"human/m15.txt": {
+"cd": true,
+"exit": false
+},
+"human/m16.txt": {
+"cd": false,
+"exit": true
+},
+"human/m17.txt": {
+"cd": false,
+"exit": false
+},
+"human/m18.txt": {
+"cd": false,
+"exit": true
+},
+"human/m19.txt": {
+"cd": false,
+"exit": true
+},
+"human/m20.txt": {
+"cd": false,
+"exit": true
+},
+"human/m21.txt": {
+"cd": false,
+"exit": true
+},
+"human/m22.txt": {
+"cd": true,
+"exit": false
+},
+"human/m23.txt": {
+"cd": false,
+"exit": true
+},
+"human/m24.txt": {
+"cd": false,
+"exit": true
+},
+"human/m25.txt": {
+"cd": false,
+"exit": true
+},
+"human/m26.txt": {
+"cd": false,
+"exit": true
+},
+"human/m27.txt": {
+"cd": false,
+"exit": true
+},
+"human/m28.txt": {
+"cd": false,
+"exit": true
+},
+"human/m29.txt": {
+"cd": false,
+"exit": false
+},
+"human/m30.txt": {
+"cd": false,
+"exit": false
+},
+"human/p01.txt": {
+"cd": false,
+"exit": true
+},
+"human/p02.txt": {
+"cd": false,
+"exit": true
+},
+"human/p03.txt": {
+"cd": false,
+"exit": true
+},
+"human/p04.txt": {
+"cd": false,
+"exit": true
+},
+"human/p05.txt": {
+"cd": false,
+"exit": true
+},
+"human/p06.txt": {
+"cd": false,
+"exit": true
+},
+"human/p07.txt": {
+"cd": false,
+"exit": true
+},
+"human/p08.txt": {
+"cd": false,
+"exit": true
+},
+"human/p09.txt": {
+"cd": false,
+"exit": true
+},
+"human/p10.txt": {
+"cd": false,
+"exit": false
+},
+"human/p11.txt": {
+"cd": false,
+"exit": false
+},
+"human/p12.txt": {
+"cd": false,
+"exit": true
+},
+"human/p13.txt": {
+"cd": true,
+"exit": false
+},
+"human/p14.txt": {
+"cd": false,
+"exit": true
+},
+"human/p15.txt": {
+"cd": false,
+"exit": false
+},
+"human/p16.txt": {
+"cd": false,
+"exit": true
+},
+"human/p17.txt": {
+"cd": false,
+"exit": false
+},
+"human/p18.txt": {
+"cd": false,
+"exit": false
+},
+"human/p19.txt": {
+"cd": false,
+"exit": true
+},
+"human/p20.txt": {
+"cd": false,
+"exit": true
+},
+"human/p21.txt": {
+"cd": false,
+"exit": true
+},
+"human/p22.txt": {
+"cd": false,
+"exit": true
+},
+"human/p23.txt": {
+"cd": false,
+"exit": true
+},
+"human/p24.txt": {
+"cd": false,
+"exit": true
+},
+"human/p25.txt": {
+"cd": false,
+"exit": true
+},
+"human/p26.txt": {
+"cd": true,
+"exit": false
+},
+"human/p27.txt": {
+"cd": false,
+"exit": true
+},
+"human/p28.txt": {
+"cd": false,
+"exit": true
+},
+"human/p29.txt": {
+"cd": false,
+"exit": true
+},
+"human/p30.txt": {
+"cd": false,
+"exit": true
+},
+"human/s01.txt": {
+"cd": false,
+"exit": false
+},
+"human/s02.txt": {
+"cd": false,
+"exit": false
+},
+"human/s03.txt": {
+"cd": false,
+"exit": true
+},
+"human/s04.txt": {
+"cd": false,
+"exit": true
+},
+"human/s05.txt": {
+"cd": false,
+"exit": true
+},
+"human/s06.txt": {
+"cd": false,
+"exit": false
+},
+"human/s07.txt": {
+"cd": false,
+"exit": false
+},
+"human/s08.txt": {
+"cd": false,
+"exit": true
+},
+"human/u01.txt": {
+"cd": false,
+"exit": false
+},
+"human/u02.txt": {
+"cd": false,
+"exit": true
+},
+"human/u03.txt": {
+"cd": false,
+"exit": true
+},
+"human/u04.txt": {
+"cd": false,
+"exit": false
+},
+"human/u05.txt": {
+"cd": false,
+"exit": true
+},
+"human/u06.txt": {
+"cd": false,
+"exit": true
+},
+"human/u07.txt": {
+"cd": false,
+"exit": true
+},
+"human/u08.txt": {
+"cd": false,
+"exit": true
+},
+"human/u09.txt": {
+"cd": false,
+"exit": true
+},
+"human/u10.txt": {
+"cd": false,
+"exit": true
+},
+"human/x01.txt": {
+"cd": false,
+"exit": true
+},
+"human/x02.txt": {
+"cd": false,
+"exit": true
+},
+"human/x03.txt": {
+"cd": false,
+"exit": true
+},
+"human/x04.txt": {
+"cd": false,
+"exit": true
+},
+"human/x05.txt": {
+"cd": false,
+"exit": true
+},
+"human/x06.txt": {
+"cd": false,
+"exit": true
+},
+"human/x07.txt": {
+"cd": false,
+"exit": true
+},
+"human/x08.txt": {
+"cd": false,
+"exit": true
+},
+"human/x09.txt": {
+"cd": false,
+"exit": false
+},
+"human/x10.txt": {
+"cd": false,
+"exit": true
+},
+"human/x11.txt": {
+"cd": false,
+"exit": true
+},
+"human/x12.txt": {
+"cd": false,
+"exit": true
+},
+"human/x13.txt": {
+"cd": false,
+"exit": true
+},
+"human/x14.txt": {
+"cd": false,
+"exit": true
+},
+"human/x15.txt": {
+"cd": false,
+"exit": true
+},
+"human/x16.txt": {
+"cd": false,
+"exit": true
+},
+"human/x17.txt": {
+"cd": false,
+"exit": true
+},
+"human/x18.txt": {
+"cd": false,
+"exit": true
+},
+"human/x19.txt": {
+"cd": false,
+"exit": true
+},
+"human/x20.txt": {
+"cd": false,
+"exit": true
+}
+}
