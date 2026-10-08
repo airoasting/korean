@@ -1,0 +1,168 @@
+h01.txt	신문기사-경제	~다체
+h02.txt	신문기사-경제	~다체
+h03.txt	신문기사-사회	~다체
+h04.txt	신문기사-IT	~다체
+h05.txt	신문기사-경제	~다체
+h06.txt	신문기사-사회	~다체
+h07.txt	신문기사-IT	~다체
+h08.txt	신문기사-경제	~다체
+h09.txt	신문기사-IT	~다체
+h10.txt	신문기사-사회	~다체
+h11.txt	칼럼	~다체
+h12.txt	사설	~다체
+h13.txt	칼럼	~다체
+h14.txt	칼럼	~다체
+h15.txt	사설	~다체
+h16.txt	칼럼	~다체
+h17.txt	에세이	~다체
+h18.txt	블로그	~요체
+h19.txt	에세이	~다체
+h20.txt	블로그	~요체
+h21.txt	에세이	~다체
+h22.txt	블로그	~요체
+h23.txt	에세이	~다체
+h24.txt	사내보고서	~이다체
+h25.txt	사내메모-개조식	개조식(~함/~임)
+h26.txt	사내보고서	~이다체
+h27.txt	사내메모-개조식	개조식(~함/~임)
+h28.txt	사내보고서	~이다체
+h29.txt	사내메모-개조식	개조식(~함/~임)
+h30.txt	공지	~합니다체
+h31.txt	이메일	~합니다체
+h32.txt	공지	~합니다체
+h33.txt	사내이메일	~합니다체
+h34.txt	학술초록	~다체
+h35.txt	기술문서	~다체
+h36.txt	학술초록	~다체
+h37.txt	슬라이드카피	~습니다체
+h38.txt	슬라이드카피	명사형
+h39.txt	슬라이드카피	~습니다체
+h40.txt	슬라이드카피	명사형
+x01.txt	지역 뉴스 기사	~다체
+x02.txt	스포츠 기사	~다체
+x03.txt	문화 기사	~다체
+x04.txt	지역 경제 기사	~다체
+x05.txt	지역 뉴스 기사	~다체
+x06.txt	사설	~다체
+x07.txt	기고	~다체
+x08.txt	사설	~다체
+x09.txt	여행 블로그	해요체
+x10.txt	요리 블로그	~다체
+x11.txt	육아 블로그	해요체
+x12.txt	여행 블로그	~다체
+x13.txt	회의록	개조식
+x14.txt	주간 보고	개조식
+x15.txt	회의록	~다체
+x16.txt	고객 안내문	~합니다체
+x17.txt	사과문	~합니다체
+x18.txt	논문 초록	~다체
+x19.txt	슬라이드 카피	개조식
+x20.txt	슬라이드 카피	개조식
+p01.txt	기사(정치)	다체
+p02.txt	기사(경제)	다체
+p03.txt	기사(사회)	다체
+p04.txt	기사(스포츠)	다체
+p05.txt	기사(IT)	다체
+p06.txt	기사(문화)	다체
+p07.txt	기사(경제)	다체
+p08.txt	기사(사회)	다체
+p09.txt	기사(IT)	다체
+p10.txt	칼럼	다체
+p11.txt	사설	다체
+p12.txt	칼럼	다체
+p13.txt	칼럼	다체
+p14.txt	칼럼	다체
+p15.txt	에세이	다체
+p16.txt	블로그	해요체
+p17.txt	블로그	해요체
+p18.txt	에세이	다체
+p19.txt	블로그(리뷰)	해요체
+p20.txt	사내 보고(개조식)	명사형·음슴체
+p21.txt	회의록(개조식)	명사형·음슴체
+p22.txt	사내 보고서	다체
+p23.txt	출장 보고(개조식)	명사형·음슴체
+p24.txt	업무 메일	합쇼체
+p25.txt	공지	합쇼체
+p26.txt	업무 메일	합쇼체
+p27.txt	학술 초록	다체
+p28.txt	기술 문서	합쇼체
+p29.txt	슬라이드 카피	명사형
+p30.txt	슬라이드 카피	명사형
+s01.txt	h1_news	SILVER 작성
+s02.txt	h2_column	SILVER 작성
+s03.txt	h3_essay	SILVER 작성
+s04.txt	h4_report	SILVER 작성
+s05.txt	h5_bullets	SILVER 작성
+s06.txt	h6_email	SILVER 작성
+s07.txt	h7_abstract	SILVER 작성
+s08.txt	h8_slide	SILVER 작성
+u01.txt	h01_news_econ	SILVER 3차 작성
+u02.txt	h02_news_society	SILVER 3차 작성
+u03.txt	h03_news_it	SILVER 3차 작성
+u04.txt	h04_column_policy	SILVER 3차 작성
+u05.txt	h05_column_culture	SILVER 3차 작성
+u06.txt	h06_essay	SILVER 3차 작성
+u07.txt	h07_report	SILVER 3차 작성
+u08.txt	h08_gaejo	SILVER 3차 작성
+u09.txt	h09_mail	SILVER 3차 작성
+u10.txt	h10_slide	SILVER 3차 작성
+m01.txt	기사(종합지)	해라체
+m02.txt	기사(경제지)	해라체
+m03.txt	기사(지역지)	해라체
+m04.txt	기사(종합지)	해라체
+m05.txt	기사(경제지)	해라체
+m06.txt	기사(종합지)	해라체
+m07.txt	기사(지역지)	해라체
+m08.txt	기사(경제지)	해라체
+m09.txt	기사(종합지)	해라체
+m10.txt	사설	해라체
+m11.txt	칼럼	해라체
+m12.txt	칼럼	해라체
+m13.txt	사설(지역지)	해라체
+m14.txt	블로그	해요체
+m15.txt	블로그	해요체
+m16.txt	에세이	해라체
+m17.txt	블로그	해라체
+m18.txt	에세이	해라체
+m19.txt	사내 보고(개조식)	개조식
+m20.txt	회의록(개조식)	개조식
+m21.txt	출장 보고(개조식)	개조식
+m22.txt	사내 보고서	해라체
+m23.txt	장애 보고(개조식)	개조식
+m24.txt	업무 메일	하십시오체
+m25.txt	자영업 공지	하십시오체
+m26.txt	공무원 안내문	하십시오체
+m27.txt	업무 메일	하십시오체
+m28.txt	보도자료	해라체
+m29.txt	슬라이드 카피	개조식
+m30.txt	슬라이드 카피	개조식
+k01.txt	기사	하다체
+k02.txt	블로그·에세이·후기	해요체
+k03.txt	사내 보고·회의록·개조식	개조식
+k04.txt	칼럼·사설·기고	하다체
+k05.txt	기사	하다체
+k06.txt	업무 메일·공지·안내문	합니다체
+k07.txt	기사	하다체
+k08.txt	블로그·에세이·후기	하다체
+k09.txt	사내 보고·회의록·개조식	개조식
+k10.txt	칼럼·사설·기고	하다체
+k11.txt	기사	하다체
+k12.txt	업무 메일·공지·안내문	합니다체
+k13.txt	슬라이드 카피	개조식
+k14.txt	블로그·에세이·후기	해요체
+k15.txt	기사	하다체
+k16.txt	칼럼·사설·기고	합니다체
+k17.txt	사내 보고·회의록·개조식	음슴체
+k18.txt	블로그·에세이·후기	해요체
+k19.txt	기사	하다체
+k20.txt	업무 메일·공지·안내문	합니다체
+k21.txt	칼럼·사설·기고	하다체
+k22.txt	사내 보고·회의록·개조식	개조식
+k23.txt	기사	하다체
+k24.txt	블로그·에세이·후기	하다체
+k25.txt	업무 메일·공지·안내문	합니다체
+k26.txt	사내 보고·회의록·개조식	개조식
+k27.txt	기사	하다체
+k28.txt	칼럼·사설·기고	하다체
+k29.txt	슬라이드 카피	개조식
+k30.txt	블로그·에세이·후기	음슴체
